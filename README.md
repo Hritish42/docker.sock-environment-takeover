@@ -28,3 +28,6 @@ curl --output - -s --unix-socket /var/run/docker.sock "http://localhost/containe
 
 ### References
 https://dejandayoff.com/the-danger-of-exposing-docker.sock/
+
+# License
+- MIT
