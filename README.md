@@ -1,4 +1,4 @@
-# Docker.sock-environment-takeover
+# docker.sock environment takeover (Privilege Escalation)
 ![](https://github.com/Hritish42/docker.sock-environment-takeover/blob/main/Images/Docker.Socks.png?raw=true)
 
 /var/run/docker.sock could lead to full environment takeover. (Privilege Escalation)
