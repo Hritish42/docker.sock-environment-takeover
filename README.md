@@ -3,7 +3,7 @@
 
 /var/run/docker.sock could lead to full environment takeover. (Privilege Escalation)
 
-I've written a bash script to automate things written in this article. 
+I've written a bash script to automate things written in the article below. 
 
 ## Proof of Concept
 To run this, you have to already have RCE on a container. Even with RCE, most of the time you will not have access to a docker client and installing a docker client might not be possible.
